@@ -40,7 +40,7 @@
 
 var config = {
   method: 'get',
-  url: 'https://my-json-server.typicode.com/kisskie/fake-pet-json/classes',
+  url: 'https://my-json-server.typicode.com/jie-personal/combcomb/classes',
 };
 
 axios(config)
