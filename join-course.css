@@ -32,8 +32,8 @@ img.body{
 .lesson{
     
     display: inline-block;
-    margin: 50px;
-    width: 25%;
+    
+    width: 32.7%;
     height: 30%;
     border:1px solid white;
 }
@@ -42,8 +42,8 @@ img.body{
     
     display: inline-block;
    
-    margin: 20px;
-    width: 25%;
+    
+    width: 32.7%;
     height: 30%;
     border:1px solid red;
 
@@ -53,8 +53,8 @@ img.body{
 .lesson3{
     
     display: inline-block;
-    margin: 20px;
-    width: 25%;
+    
+    width: 32.7%;
     height: 30%;
     
     border:1px solid green;
