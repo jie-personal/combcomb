@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+img {
+  display: block;
+}
+.m-b , .cp, .m-comb-razor-img{
+  display: none;
+}
+/*回到上方*/
+.toTop-arrow {
+	width: 4rem;
+	height: 4rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 50%;
+	background: #fff;
+  background-image: url(picture/top.svg);
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.m1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.h {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  width: 30%;
+}
+.logo img {
+  width: 40%;
+  height: 30px;
+}
+.menu {
+  width: 60%;
+  height: 30px;
+  direction: rtl;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  overflow: hidden;
+}
+.menu-r {
+  width: 120px;
+  height: 120px;
+  border-radius: 999em;
+  position: absolute;
+  top: 30px;
+  background-color: black;
+  transition: 0.5s;
+  z-index: 1;
+  justify-content: center;
+}
+.menu-r2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 999em;
+  position: absolute;
+  top: 30px;
+  background-color: black;
+  transition: 0.5s;
+  z-index: 1;
+  justify-content: center;
+}
+.menu-pp {
+  width: 20%;
+  height: 30px;
+  position: absolute;
+  text-decoration: none;
+  color: rgb(84, 83, 83);
+  font-size: 1.4vw;
+  text-align: center;
+  letter-spacing: 1px;
+  z-index: 2;
+  line-height: 30px;
+}
+.menu-pp2 {
+  width: 25%;
+  height: 30px;
+  position: absolute;
+  text-decoration: none;
+  color: rgb(84, 83, 83);
+  font-size: 1.4vw;
+  text-align: center;
+  letter-spacing: 1px;
+  z-index: 2;
+  line-height: 30px;
+}
+
+.menu-p {
+  display: inline-block;
+  width: 20%;
+  height: 30px;
+
+  /*text-decoration: none;
+    color: rgb(84, 83, 83);
+    font-size: 1.4vw;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px 15px 10px 15px;
+    height: 20px;*/
+  overflow: hidden;
+}
+.menu-p2 {
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  overflow: hidden;
+}
+.menu-p:hover .menu-pp {
+  color: #fff;
+}
+.menu-p:hover .menu-r {
+  top: 0px;
+  width: 20%;
+  height: 30px;
+}
+.menu-p2:hover .menu-pp2 {
+  color: #fff;
+}
+.menu-p2:hover .menu-r2 {
+  top: 0px;
+  width: 25%;
+  height: 30px;
+}
+.menu-media-container {
+  display: none;
+}
+
+.m1p {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  font-size: 2vw;
+  color: #535353;
+}
+
+.comb-razor {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: normal;
+  display: none;
+}
+
+.circle-img {
+  width: 350px;
+  height: 350px;
+  /* mix-blend-mode: difference; */
+}
+
+.comb-razor-img {
+  display: inline-block;
+  width: 45%;
+  padding-left: 10px;
+}
+
+.circle:hover {
+  z-index: -1; /* change index when hover */
+}
+.comb-razor-img:hover {
+  z-index: 1;/* change index when hover */
+  mix-blend-mode: difference;
+}
+
+/*.comb-razor:hover .circle{
+    display: block;
+}*/
+
+#m2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.m2p {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+.titleM {
+  position: relative;
+  font-size: 3vw;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0;
+}
+.mp {
+  position: relative;
+  font-size: 2vw;
+  color: #000;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  animation-name: textAnimation;
+  animation: textAnimation 1.5s ease;
+}
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+.mp-right {
+  position: absolute;
+  font-size: 1.7vw;
+  color: #000;
+  left: 50%;
+  top: 75%;
+  width: 40%;
+  line-height: 1.6;
+  
+}
+.mp-left {
+  position: absolute;
+  font-size: 1.7vw;
+  color: #000;
+  width: 40%;
+  top: 75%;
+  line-height: 1.6;
+  
+}
+.m3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.m3p {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 45%;
+}
+
+#m4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.m4p {
+  position: absolute;
+  top: 15%;
+  left: 11%;
+  width: 37%;
+  line-height: 1.8;
+}
+.m5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.m5p {
+  position: absolute;
+  top: 15%;
+  left: 11%;
+  width: 90%;
+}
+
+.m6 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.m6p {
+  position: absolute;
+  top: 15%;
+  left: 11%;
+  width: 39%;
+  line-height: 1.8;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto; 
+    background-size: 100%;
+    background-position: center 0;
+    
+}
+img.body{
+    
+}
+.m1{
+    position: relative;
+}
+.mp{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*text-align: center;*/
+    line-height: 1.6;
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 50%;
+}
+
+.lesson1{
+    
+    display: inline-block;
+    margin: 50px;
+    width: 25%;
+    height: 30%;
+    border:1px solid white;
+}
+.lesson2{
+    
+    display: inline-block;
+   
+    margin: 20px;
+    width: 25%;
+    height: 30%;
+    border:1px solid white;
+
+    
+}
+.lesson3{
+    
+    display: inline-block;
+    margin: 20px;
+    width: 25%;
+    height: 30%;
+    
+    border:1px solid white;
+    
+}
