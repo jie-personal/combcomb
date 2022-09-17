@@ -29,7 +29,7 @@ img.body{
     height: 50%;
 }
 
-.lesson1{
+.lesson{
     
     display: inline-block;
     margin: 50px;
@@ -37,6 +37,7 @@ img.body{
     height: 30%;
     border:1px solid white;
 }
+
 .lesson2{
     
     display: inline-block;
@@ -44,10 +45,11 @@ img.body{
     margin: 20px;
     width: 25%;
     height: 30%;
-    border:1px solid white;
+    border:1px solid red;
 
     
 }
+
 .lesson3{
     
     display: inline-block;
@@ -55,6 +57,6 @@ img.body{
     width: 25%;
     height: 30%;
     
-    border:1px solid white;
+    border:1px solid blue;
     
 }
