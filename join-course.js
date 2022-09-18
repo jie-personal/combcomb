@@ -40,7 +40,7 @@
 
 var config = {
   method: 'get',
-  url: 'https://my-json-server.typicode.com/kisskie/fake-pet-json/classes',
+  url: 'https://my-json-server.typicode.com/jie-personal/combcomb/classes',
 };
 
 axios(config)
@@ -59,7 +59,9 @@ axios(config)
 
       $('.main').append(`
                 <div class="${className}">
-                    <span class="course_name">${course.name}</span>
+                    <pre><span class="course_name" style="font-family: Arial, Helvetica, sans-serif; font-size: 1.2vw;">課程名稱：${course.name}</span></pre>
+                    <p class="course_date">日期：${course.date}</p>
+                    <pre><span class="course_time" style="font-family: Arial, Helvetica, sans-serif; font-size: 1.2vw;">時間：${course.start_time} ~ ${course.end_time}</span></pre>
                     <p class="course_desc">${course.description}</p>
                 </div>
             `);
