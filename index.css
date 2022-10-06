@@ -33,13 +33,19 @@ img {
   height: auto;
 }
 .h {
-  display: inline-block;
+  
   position: absolute;
+  display: flex;
+  align-items: center;
   width: 100%;
+  background-color: #fff;
+  height: 10%;
 }
 .logo {
-  position: absolute;
-  top: 25px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  /*top: 30%;*/
   left: 40px;
   width: 30%;
 }
@@ -48,12 +54,14 @@ img {
   height: 30px;
 }
 .menu {
+  vertical-align: middle;
+  display: inline-block;
   width: 60%;
   height: 30px;
   direction: rtl;
-  position: absolute;
-  right: 30px;
-  top: 25px;
+  position: relative;
+  right: -90px;
+  /*top: 30%;*/
   overflow: hidden;
 }
 .menu-r {
