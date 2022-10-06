@@ -9,10 +9,12 @@ body{
 img.body{
     
 }
-.m1{
-    position: relative;
+.j-m1{
+    position: absolute;
+    z-index: -1;
+    top: 10%;
 }
-.mp{
+.j-mp{
     position: absolute;
     top: 10%;
     left: 50%;
