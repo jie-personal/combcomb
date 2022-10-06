@@ -3,29 +3,29 @@
     {
       "id": 1,
       "type": "cat",
-      "name": "cat 梳毛",
+      "name": "貓咪梳毛新手入門",
       "date": "2022-09-20",
       "start_time": "17:00",
       "end_time": "18:00",
-      "description": "梳毛課程"
+      "description": "因空間有限，此堂課20名額滿"
     },
     {
       "id": 2,
       "type": "dog",
-      "name": "dog 剃毛",
+      "name": "狗狗剃毛新手入門",
       "date": "2022-09-20",
       "start_time": "17:00",
       "end_time": "18:00",
-      "description": "剃毛課程"
+      "description": "因空間有限，此堂課15名額滿"
     },
     {
       "id": 3,
       "type": "dog",
-      "name": "dog 梳毛",
+      "name": "狗狗梳毛新手入門",
       "date": "2022-09-20",
       "start_time": "17:00",
       "end_time": "18:00",
-      "description": "梳毛課程"
+      "description": "因空間有限，此堂課15名額滿"
     }
     
     
