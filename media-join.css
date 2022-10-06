@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+}
+.wb{
+    display: none;
+}
+.h1{
+    font-size: 5vw;
+}
+
+.main{
+    
+    column-count: unset;
+}
+.lesson{
+    padding: 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    margin: 10% 10% 0px 10%;
+    /*border:1px solid white;*/
+    background-color: rgba(0, 0, 0, 0.083);
+    border-radius: 20px;
+}
+
+.lesson2{
+    padding: 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    margin: 0% 10% 0px 10%;
+    
+    
+    /*border:1px solid red;*/
+    background-color: rgba(0, 0, 0, 0.083);
+    border-radius: 20px;
+  
+}
+.button{
+    font-size: 3vw;
+}
+.course_name{
+    font-size: 4vw;
+}
