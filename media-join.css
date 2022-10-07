@@ -1,11 +1,23 @@
 body{
-    background-color: blanchedalmond;
+    background-size: auto;
+   
 }
 .wb{
     display: none;
 }
 .h1{
-    font-size: 5vw;
+    font-size: 7vw;
+    letter-spacing: 5px
+}
+.j-m1{
+    
+    background-color: blanchedalmond;
+    position: absolute;
+   
+    overflow:auto;
+    z-index: -1;
+    top: 10%;
+    
 }
 
 .main{
