@@ -11,12 +11,11 @@ body{
 }
 .j-m1{
     
-    background-color: blanchedalmond;
-    position: absolute;
+    background-color: rgb(255, 239, 205);
+    
    
     overflow:auto;
-    z-index: -1;
-    top: 10%;
+    
     
 }
 
@@ -28,7 +27,7 @@ body{
     padding: 5% 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
-    margin: 10% 10% 0px 10%;
+    margin: 10% 10% 0% 10%;
     /*border:1px solid white;*/
     background-color: rgba(0, 0, 0, 0.083);
     border-radius: 20px;
@@ -38,7 +37,7 @@ body{
     padding: 5% 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
-    margin: 0% 10% 0px 10%;
+    margin: 0% 10% 0% 10%;
     
     
     /*border:1px solid red;*/
