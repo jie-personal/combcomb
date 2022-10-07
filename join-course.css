@@ -14,6 +14,13 @@ body{
 img.body{
     
 }
+.mh {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+  }
+
 .j-m1{
     position: absolute;
     width: 100%;
