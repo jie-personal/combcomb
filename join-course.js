@@ -43,8 +43,7 @@ var config = {
   url: 'https://my-json-server.typicode.com/jie-personal/combcomb/classes',
 };
 
-const request = axios.default;
-request(config)
+axios(config)
   .then(function (response) {
     var classes = response.data;
     for (let index = 0; index < classes.length; index++) {
