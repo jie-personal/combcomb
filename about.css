@@ -3,6 +3,7 @@ html{
   }
 
 body{
+ 
     overflow-x: hidden !important;
     background-image: url(picture/about.jpg);
     background-repeat: no-repeat;
