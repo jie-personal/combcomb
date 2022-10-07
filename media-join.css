@@ -10,17 +10,16 @@ body{
     letter-spacing: 5px
 }
 .j-m1{
-    
+    height: 1500px;
     background-color: rgb(255, 239, 205);
-    
-   
-    overflow:auto;
-    
-    
+    overflow:auto; 
+}
+.j-mp{
+    top: 50px;
 }
 
 .main{
-    
+    top: 38%;
     column-count: unset;
 }
 .lesson{
@@ -50,4 +49,8 @@ body{
 }
 .course_name{
     font-size: 4vw;
+}
+
+footer{
+    display: none;
 }
