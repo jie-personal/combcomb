@@ -1,5 +1,6 @@
 html{
     overflow-x: hidden !important;
+    overflow: hidden;
   }
 
 body{
@@ -10,12 +11,14 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
+    height: 100%;
+    overflow: hidden;
     
 }
 .mh {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 700px;
+    height: 100%;
     
   }
 
