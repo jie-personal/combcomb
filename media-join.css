@@ -10,12 +10,13 @@ body{
     letter-spacing: 5px
 }
 .j-m1{
+    top:7%;
     height: 1500px;
     background-color: rgb(255, 239, 205);
-    overflow:auto; 
+    
 }
 .j-mp{
-    top: 50px;
+    top:5%;
 }
 
 .main{
