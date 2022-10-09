@@ -7,3 +7,28 @@ body{
 
     
 }
+.a-mp{
+    top: 56%;
+}
+
+.text{
+    background-color: unset;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+
+h1{
+    font-size: 5.5vw;
+}
+
+.p1{
+    font-size: 3.7vw;
+}
+
+.a-mp{
+    top: 63%;
+}
+
+}
